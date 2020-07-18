@@ -2,7 +2,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 
-module.exports = {
+export default {
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'

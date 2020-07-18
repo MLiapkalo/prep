@@ -2,9 +2,9 @@ import { Comparator } from '../../helpers/Comparator';
 
 /**
  * 
- * @param {any[]} arr 
+ * @param {Array} arr 
  * @param {any} val
- * @param {function(a, b)} compareFn
+ * @param {function(a, b) => number} compareFn
  */
 export function binarySearch(arr, val, compareFn) {
     const comparator = new Comparator(compareFn);
