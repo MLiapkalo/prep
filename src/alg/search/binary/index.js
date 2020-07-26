@@ -1,4 +1,4 @@
-import { Comparator } from '../../helpers/Comparator';
+import { Comparator } from '../../../helpers/Comparator';
 
 /**
  * 
