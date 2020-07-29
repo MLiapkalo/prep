@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./build/bundle",
+    "fp": "node -r esm src/fp",
     "webpack": "webpack --mode development",
     "webpack:server": "webpack-dev-server --open",
-    "webpack:watch": "webpack --watch --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,7 @@
     "@babel/register": "7.10.5",
     "babel-loader": "8.1.0",
     "clean-webpack-plugin": "3.0.0",
+    "esm": "^3.2.25",
     "html-webpack-plugin": "4.3.0",
     "jest": "26.1.0",
     "webpack": "4.43.0",
